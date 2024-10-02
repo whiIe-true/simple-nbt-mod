@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-nbt-mod",
+	"version": "${version}",
+	"name": "Simple-NBT-MOD",
+	"description": "Deadsimple creative nbt generation mod. View https://github.com/whiIe-true/simple-nbt-mod to see how it works.",
+	"authors": [
+		"HoppoFloppoDoggo"
+	],
+	"contact": {
+		"homepage": "discord.gg/2zyG7DP4PZ",
+		"sources": "https://github.com/whiIe-true/simple-nbt-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simple-nbt-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"de.hoppofloppodoggo.simplenbt.SimpleNBTMod"
+		]
+	},
+	"mixins": [
+		"simple-nbt-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
