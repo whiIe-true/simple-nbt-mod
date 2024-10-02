@@ -26,4 +26,4 @@ Below is a video example of how to use all these features.
 
 If you have any questions or problems feel free to ask on my [discord](discord.gg/2zyG7DP4PZ).
 
-![InfoVideo](media/NBTInfoVideo.mp4)
+[![InfoVideo](media/Preview.png)](media/NBTInfoVideo.mp4)
